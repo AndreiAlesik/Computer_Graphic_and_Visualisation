@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\shaders">
+      <UniqueIdentifier>{fefd3db8-817d-4ae1-ac2a-c2b5cb02f7fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\textures">
+      <UniqueIdentifier>{11f47d40-51db-4005-8739-f70e26c7f95e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders\water">
+      <UniqueIdentifier>{4a061c76-4cfe-4e46-b5e5-a7e9f96153c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders\model">
+      <UniqueIdentifier>{6b50abbb-34b4-4150-a48f-8579117cf4fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders\skybox">
+      <UniqueIdentifier>{83212c17-59ac-4005-bceb-000d82b3e5ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders\smoke">
+      <UniqueIdentifier>{3c48cc02-8996-446c-92c6-0012158bc464}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shaderProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VBO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EBO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VAO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="skybox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="smoke.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shaderProgram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VBO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EBO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VAO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="skybox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="smoke.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\pop_cat_RGBA.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="textures\wall_RGB.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\model\model.frag">
+      <Filter>Resource Files\shaders\model</Filter>
+    </None>
+    <None Include="shaders\model\model.vert">
+      <Filter>Resource Files\shaders\model</Filter>
+    </None>
+    <None Include="shaders\skybox\skybox.frag">
+      <Filter>Resource Files\shaders\skybox</Filter>
+    </None>
+    <None Include="shaders\skybox\skybox.vert">
+      <Filter>Resource Files\shaders\skybox</Filter>
+    </None>
+    <None Include="shaders\water\water.frag">
+      <Filter>Resource Files\shaders\water</Filter>
+    </None>
+    <None Include="shaders\water\water.vert">
+      <Filter>Resource Files\shaders\water</Filter>
+    </None>
+    <None Include="shaders\particle\smoke.frag">
+      <Filter>Resource Files\shaders\smoke</Filter>
+    </None>
+    <None Include="shaders\particle\smoke.vert">
+      <Filter>Resource Files\shaders\smoke</Filter>
+    </None>
+  </ItemGroup>
+</Project>
